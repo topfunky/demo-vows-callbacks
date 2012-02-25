@@ -12,8 +12,6 @@ suite.addBatch
       undefined
     'succeeds': (err, doc) ->
       assert.equal doc.email, 'test@example.com'
-
-suite.addBatch
   'invalid email':
     topic: ->
       errorCallback = (err) =>

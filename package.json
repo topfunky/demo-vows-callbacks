@@ -1,0 +1,22 @@
+{
+  "author": "Geoffrey Grosenbach <boss@topfunky.com> (http://peepcode.com)",
+  "name": "demo-vows-callback",
+  "description": "Demo app to try callbacks with Vows testing",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "./node_modules/vows/bin/vows --spec"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "dependencies": {
+    "coffee-script": "~1.2.0"
+  },
+  "devDependencies": {
+    "vows": "~0.6.2"
+  },
+  "optionalDependencies": {}
+}
